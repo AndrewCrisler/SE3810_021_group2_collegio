@@ -1,0 +1,53 @@
+#club_header{
+    margin-left: 30px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+#gambling{
+    margin-left: auto;
+    margin-right: auto;
+}
+#gamdiv{
+    display: flex;
+    justify-content: center;
+}
+#layout{
+    display: flex;
+}
+.pageLayout{
+    flex: 1;
+    border: 2px solid black;
+    min-height: 600px;
+}
+#links{
+    max-width: 250px;
+    width: 250px;
+}
+#ads{
+    max-width: 200px;
+    width: 200px;
+}
+#centerPage{
+    width: auto;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+#linksText{
+    background-color: lightgray;
+    min-height: 30px;
+    margin-top: 0;
+    margin-bottom: 0;
+    text-align: center;
+    padding-top: 10px;
+}
+button{
+    min-width: 250px;
+    margin-top: 0;
+    min-height: 30px;
+}
+.subscribe{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+}
