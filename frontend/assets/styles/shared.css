@@ -1,3 +1,57 @@
-#test {
-  color: blue;
+body {
+  margin: 0;
 }
+
+#header {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  background-color: rgb(99, 99, 99);
+  color: white;
+  height: 100px;
+}
+
+#header img {
+  height: 80px;
+}
+
+#header h1 {
+  margin: 20px;
+}
+
+#navBar {
+  background-color: rgb(143, 0, 0);
+  height: 40px;
+}
+
+#navBar a {
+  height: 30px;
+  width: 120px;
+  display: block;
+  float: left;
+  text-align: center;
+  text-decoration: none;
+  color: white;
+  padding-top: 10px;
+  font-weight: bold;
+}
+
+#navBar a:hover {
+  color: black;
+  background-color: gray;
+}
+
+#homeLink {
+  margin-left: 20px;
+}
+
+#clubsLink {
+  /* border-right: none !important; */
+  margin-right: 5px;
+}
+
+#aboutUsLink {
+  float: right !important;
+  margin-right: 20px;
+}
+
