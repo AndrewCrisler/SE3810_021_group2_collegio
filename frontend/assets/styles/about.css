@@ -1,0 +1,28 @@
+.pageDesc {
+  margin-top: 20px;
+  margin-right: 20px;
+  margin-left: 20px;
+
+  background-color: lightgray;
+  border: 2px solid black;
+}
+
+.descHeader {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.pageDesc .descHeader img {
+  height: 60px;
+  margin-right: 20px;
+}
+
+.pageDesc .descHeader h2 {
+  display: block;
+}
+
+.pageDesc p {
+  margin: 20px;
+  font-size: larger;
+}
