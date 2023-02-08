@@ -13,6 +13,11 @@ const clubButtons = [
     name: 'society of software engineering',
     desc: 'sse',
     html: '<a href="/clubs/sse_home.html"><div class="club"><img src="/clubs/sse.png"><div class="desc"><h2>Society of Software Engineering</h2><span>Desc of SSE ...</span></div></div></a>'
+  },
+  {
+    name: 'robotics club',
+    desc: 'skynet will destroy us',
+    html: '<a href="/clubs/robotics_home.html"><div class="club"><img src="/clubs/robotics.png"><div class="desc"><h2>Robotics</h2><span>Desc of Robotics ...</span></div></div></a>'
   }
 ];
 
